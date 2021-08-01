@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/donate-clicks",
+      "handler": "donate-clicks.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/donate-clicks/count",
+      "handler": "donate-clicks.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/donate-clicks/:id",
+      "handler": "donate-clicks.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/donate-clicks",
+      "handler": "donate-clicks.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/donate-clicks/:id",
+      "handler": "donate-clicks.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/donate-clicks/:id",
+      "handler": "donate-clicks.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

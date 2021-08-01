@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donate_clicks",
+  "info": {
+    "name": "DonateClicks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "client": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "contact": {
+      "type": "string"
+    }
+  }
+}
